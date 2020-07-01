@@ -1,2 +1,2 @@
 # Playground
-A place for me with play around with different technologies, setups, etc.
+A place for me to play around with different technologies, setups, etc.
