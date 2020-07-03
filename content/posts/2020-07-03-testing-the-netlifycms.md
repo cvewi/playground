@@ -4,7 +4,7 @@ author: Christian Wittrup
 title: Testing the NetlifyCMS
 date: 2020-07-03T12:04:19.346Z
 description: Big fat test of the NetlifyCMS
-tag: [
+tags: [
     "netlify",
     "cms",
     "static",
