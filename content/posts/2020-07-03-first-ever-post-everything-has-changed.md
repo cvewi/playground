@@ -20,7 +20,7 @@ tags:
 
 **A lot** have changed since my last dabble into the world of blogging, coding and programming. Its been years, I guess more than 10, since I last threw myself in to any type of programming (except for the occasional excel formulas, which I don't believe count). 
 
-Back then everything had to be build using PHP, with MySQL as the database. I created several projects - some quite successful, some which never worked as intended and some which were just god awful. The concept of a static page seemed old-fashioned back then as everything had to dynamic.
+Back then everything had to be build using PHP, with MySQL as the database. I created several projects - some quite successful, some which never worked as intended and some which were just god awful. The concept of a static page seemed old-fashioned back then as everything had to be dynamic.
 
 ## Building this site
 
