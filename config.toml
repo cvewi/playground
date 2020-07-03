@@ -1,6 +1,6 @@
 baseURL = "https://www.wittrup.xyz"
 languageCode = "en-us"
-title = "Christian Wittrup's Rambles"
+title = "Me Rambling"
 theme = "noteworthy"
 enableRobotsTXT = true
 paginate = 4 # Set the number of posts to show before overflowing to the next page.
@@ -23,15 +23,15 @@ disqusShortname = ""
     unsafe = true
 
 [params]
-	math = true
+	math = false
 	# Blog description at the top of the homepage. Supports markdown.
 	description = "A place for me to ramble about everything and nothing"
 
-    showReadMore = false
+  showReadMore = true
 
-    # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
-    enableKofi = false
-    kofi = ""
+  # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
+  enableKofi = false
+  kofi = ""
 
 	# Add links to your accounts. Remove the ones you don't want to include.
 	# Main
