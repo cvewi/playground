@@ -3,12 +3,12 @@
 // COLORS
 $teal: #63BDA2;
 $teal-darker: #359377;
-$gray-background: #85c5a2;
-$gray-table-border: #aed199;
-$gray-lightest: #dbdfad;
-$gray-light: #a1ccf3;
+$gray-background: #F7F7F7;
+$gray-table-border: #EEEEEE;
+$gray-lightest: #D2D2D2;
+$gray-light: #ABABAB;
 $gray-medium: #898989;
-$gray-dark: #cc3c3c;
+$gray-dark: #5F5F5F;
 $highlight: #FFEC5C;
 
 // FONTS
@@ -282,7 +282,7 @@ nav {
 
 .description {
     font-style: italic;
-    color: $teal-darker;
+    color: $teal;
     text-align: center;
     margin-bottom: 3.7em;
     margin-top: -0.75em;
