@@ -24,7 +24,7 @@ Back then everything had to be build using PHP, with MySQL as the database. I cr
 
 ## Building this site
 
-I started to investigate into setting up a place to unload my mind. At first I immediately went to Wordpress, this was something I knew from back then and it seemed like it could suit my needs, although a bit extensive in its functionality. There was however one thing that kept irritating me - speed. Even with the most simply WP setup I kept feeling that it was bloated, slow and to extensive in its functionalities. My need here was really not to build a comprehensive site and so it seemed like to much work to maintain a WP setup.
+I started to investigate into setting up a place to unload my mind. At first I immediately went to Wordpress, this was something I knew from back then and it seemed like it could suit my needs, although a bit extensive in its functionality. There was however one thing that kept irritating me - speed. Even with the most simple WP setup I kept feeling that it was bloated, slow and to extensive in its functionalities. My need here was really not to build a comprehensive site and so it seemed like to much work to maintain a WP setup.
 
 Imagine the shock I faced as I searched for a better solution. Everywhere I looked it wasn't dynamic webpages that was the talk of the town anymore - it was static site generators, oh and JavaScript was cool again. Everywhere, everybody was mentioning static site generators like hugo, gatsby and jekyll. 
 
@@ -38,7 +38,7 @@ This page is built using [hugo](https://gohugo.io/) (with [netlifycms ](https://
 
 ![hacking nerd](/images/uploads/hackingnerd.gif "hacking nerd")
 
-I'm utterly impressed with how easy it was to get this up and running, how fast a new site is build and deployed and how well everything is support by the community.
+I'm utterly impressed with how easy it was to get this up and running, how fast a new site is build and deployed and how well everything is supported by the community.
 
 I feel like it tingled all of my nerd genes the right places hitting the right mix between convenience- and nerd-town.
 
