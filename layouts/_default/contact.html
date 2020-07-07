@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1 id="contact">Contact</h1>
+    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <p>
+          <label><input type="text" name="name" style="width: 300px;" placeholder="Your Name"/></label>   
+        </p>
+        <p>
+          <label><input type="email" name="email" style="width: 300px;" placeholder="E-mail"/></label>
+        </p>
+        <p>
+          <label><textarea name="message" style="width: 300px; height: 200px;" placeholder="What's on your mind?"></textarea></label>
+        </p>
+        <div data-netlify-recaptcha="true"></div>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+{{ end }}
