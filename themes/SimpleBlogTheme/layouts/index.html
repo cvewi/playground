@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>{{ .Site.Title }}</h1>
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ range (.Paginate $pages).Pages }}
+      <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ partial "metadata.html" . }}
+        <p>{{ .Summary }}</p>
+{{ end }}
+{{ end }}
+
+

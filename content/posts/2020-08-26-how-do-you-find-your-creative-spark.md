@@ -7,7 +7,6 @@ description: A lack of creativity can hit everybody. How do you force it upon yo
 tags:
   - creativity
   - writing
-  - ""
 ---
 I've been tasked with an assignment and I'm currently struggling with the one thing that sometimes hit you. A lack of creativity.
 

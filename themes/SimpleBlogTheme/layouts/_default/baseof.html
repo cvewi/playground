@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<!-- Default base template. Other templates define the "main" portion in this template -->
-<html lang="{{ $.Site.LanguageCode | default "en" }}">
-    {{ partial "head.html" . }}
+<html>
+    {{- partial "head.html" . -}}
     <body>
-        {{ partial "nav.html" . }}
-        <div id="content" class="content-container">
-        {{ block "main" . }}
-        {{ end }}
-        {{ partial "math.html" . }}
+        <div class="wrapper">
+            {{- partial "header.html" . -}}
+            {{- partial "nav.html" . -}}
+            {{- partial "social.html" . -}}
+            <main class="content">
+            {{- block "main" . }}{{- end }}
+            </main>
+            {{- partial "footer.html" . -}}
         </div>
-        {{ partial "footer-mobile.html" . }}
         <!-- Netlify CMS redirect once logged into admin -->
         <script>
             if (window.netlifyIdentity) {

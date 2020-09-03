@@ -1,5 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://cvewiplayground.netlify.app/* https://www.wittrup.xyz/:splat 301!
-
-# Redirect any 404 calls
-/* /404.html 404
