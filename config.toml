@@ -4,6 +4,7 @@ title = "Thoughts by Christian Wittrup"
 theme = "SimpleBlogTheme"
 copyright ="© 2020, Christian Wittrup"
 googleAnalytics = ""
+paginate = 4
 
 [taxonomies]
   tag = "tags"
