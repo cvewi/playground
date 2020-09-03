@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.wittrup.xyz"
 languageCode = "en-us"
 title = "Thoughts by Christian Wittrup"
 theme = "SimpleBlogTheme"
