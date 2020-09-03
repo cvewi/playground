@@ -24,7 +24,6 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
       label: "Pages" # Used in the UI
       folder: "content" # The path to the folder where the documents are stored
