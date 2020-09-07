@@ -16,7 +16,7 @@
     /* content specific colors */
     --content-bg-color: ;
     --content-font-color-date: #5ac18e;
-    --content-font-color-tags: #8bd3af;
+    --content-font-color-tags: #aaaaaa;
     /* socialicons specific colors */
     --social-a-color: #5ac18e;
     --social-a-color-hover: #85ddb1;
@@ -49,8 +49,18 @@ h1 {
     font-family: 'Amatic SC', cursive;
 }
 
+h2 {
+    font-size: calc(1em + 1vw);
+    font-family: 'Amatic SC', cursive;
+}
+
 a {
     color: var(--a-color);
+}
+
+img {
+    max-width:100%;
+    height:auto;
 }
 
 a:hover {
@@ -86,6 +96,11 @@ a:hover {
 .header h1 {
     color: var(--header-h1);
     font-size: calc(1.2em + 3vw);
+}
+
+.header h2 {
+    font-size: calc(0.1em + 1vw);
+    font-family: 'Lora', serif;
 }
 
 .nav {
@@ -128,6 +143,8 @@ a:hover {
     padding: 1rem;
     width: 200px;
     grid-area: socialicons;
+    grid-row-start: socialicons;
+    grid-row-end: footer;
     text-align: center;
     background-color: var(--nav-bg-color);
     border-radius: 0 0 5px 5px;
@@ -153,7 +170,8 @@ a:hover {
 }
 
 .content .datetime {
-    padding: 5px 0 5px 0;
+    padding: 2px 0;
+    line-height: 1px;
     color: var(--content-font-color-date);
     font-style: italic;
     font-size: 0.8em;
@@ -161,10 +179,36 @@ a:hover {
 }
 
 .content .tags {
-    padding: 5px 0 5px 0;
+    padding: 2px 0;
     color: var(--content-font-color-tags);
+    line-height: 1.5px;
     font-style: italic;
     font-size: 0.8em;
+}
+
+.content .tags a {
+    color: var(--content-font-color-tags);
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content ul {
+    list-style: none;
+    list-style-position: inside;
+}
+
+.content li::before {
+    content: "⫸";
+    font-size: 130%;
+    line-height: 0;
+    margin: 0rem 0.5rem 0 -0.25rem;
+    position: relative;
+    top: 0.08rem;
+    color: var(--content-font-color-date);
 }
 
 .footer {
