@@ -13,7 +13,22 @@
     <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
     <script>
       CMS.registerPreviewStyle("/style.css");
-      CMS.registerPreviewTemplate('blog', IndexPagePreview)
+    </script>
+    <script>
+      var BlogPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          var image = entry.getIn(['data', 'image']);
+          var bg = this.props.getAsset(image);
+          return h('div', {},
+            h('h1', {}, entry.getIn(['data', 'title'])),
+            h('img', {src: bg.toString()}),
+            h('div', {"className": "text"}, this.props.widgetFor('body'))
+          );
+        }
+      });
+    
+      CMS.registerPreviewTemplate("blog", BlogPreview);
     </script>
   </body>
 </html>
