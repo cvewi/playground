@@ -21,6 +21,32 @@
     --social-a-color: #5ac18e;
     --social-a-color-hover: #85ddb1;
 }
+/*
+@media (prefers-color-scheme: light) {
+    :root {
+        /*main color scheme*/
+        --bg-color-from: #ffffff;
+        --bg-color-to: #ffffff;
+        --font-color: #12261c;
+        --a-color: #5ac18e;
+        --a-color-hover: #66b2b2;
+        /* header specific colors */
+        --header-h1: #5ac18e;
+        /* nav specific colors */
+        --nav-bg-color: #eef8f3;
+        --nav-a-color: #5ac18e;
+        --nav-a-color-hover: #ffffff;
+        --nav-a-color-hover-bg: #5ac18e;
+        /* content specific colors */
+        --content-bg-color: ;
+        --content-font-color-date: #5ac18e;
+        --content-font-color-tags: #8bd3af;
+        /* socialicons specific colors */
+        --social-a-color: #5ac18e;
+        --social-a-color-hover: #12261c;
+    }
+}
+*/
 
 * {
     margin: 0;
@@ -58,13 +84,13 @@ a {
     color: var(--a-color);
 }
 
+a:hover {
+    color: var(--a-color-hover);
+}
+
 img {
     max-width:100%;
     height:auto;
-}
-
-a:hover {
-    color: var(--a-color-hover);
 }
 
 .wrapper {
