@@ -8,7 +8,9 @@
     {{ $title := print .Title " | " .Site.Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
+    {{ template "_internal/google_analytics_async.html" . }}
     <script src="https://kit.fontawesome.com/31e715396f.js" crossorigin="anonymous"></script>
     <!-- Netlify CMS Identify Widget -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
 </head>

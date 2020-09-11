@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Thoughts by Christian Wittrup"
 theme = "SimpleBlogTheme"
 copyright ="© 2020, Christian Wittrup"
-googleAnalytics = ""
+googleAnalytics = "UA-169820698-2"
 paginate = 4
 
 [taxonomies]
