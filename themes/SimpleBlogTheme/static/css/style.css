@@ -9,12 +9,12 @@
     /* header specific colors */
     --header-h1: #5ac18e;
     /* nav specific colors */
-    --nav-bg-color: #1d1d1d;
+    --nav-bg-color: none;
     --nav-a-color: #5ac18e;
     --nav-a-color-hover: #ffffff;
     --nav-a-color-hover-bg: #5ac18e;
     /* content specific colors */
-    --content-bg-color: ;
+    --content-bg-color: none;
     --content-font-color-date: #5ac18e;
     --content-font-color-tags: #aaaaaa;
     /* socialicons specific colors */
@@ -93,15 +93,20 @@ img {
     height:auto;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 .wrapper {
     display: grid;
     align-content: center;
     max-width: 1200px;
     margin: 10vh auto;
     grid-template-areas:   
-    "header header header" 
+    "header header socialicons" 
     "nav content content" 
-    "socialicons content content" 
     "footer footer footer";
     grid-template-rows:    auto;
     grid-template-columns: auto 1fr;
@@ -122,18 +127,19 @@ img {
 .header h1 {
     color: var(--header-h1);
     font-size: calc(1.2em + 3vw);
+    margin-top: 0em;
+    margin-bottom: 0.5em;
 }
 
 .header h2 {
-    font-size: calc(0.1em + 1vw);
+    font-size: calc(0.1em + 1.2vw);
     font-family: 'Lora', serif;
+    margin-top: 0em;
 }
 
 .nav {
-    margin: 0 0 0 5px;
-    padding: 1rem;
     grid-area: nav;
-    align-self: start;
+    align-self: stretch;
     background-color: var(--nav-bg-color);
     border-radius: 5px 5px 0 0;
     width: 200px;
@@ -165,9 +171,7 @@ img {
 }
 
 .socialicons {
-    margin: 0 0 0 5px;
-    padding: 1rem;
-    width: 200px;
+    width: auto;
     grid-area: socialicons;
     grid-row-start: socialicons;
     grid-row-end: footer;
@@ -260,9 +264,31 @@ img {
         grid-template-columns: auto;
     }
 
+    .header {
+        min-height: 1rem;
+        padding: 0.5rem;
+        /*background-color: #0c2472;*/
+        grid-row-start: header;
+        grid-row-end: header;
+        grid-column-start: header;
+        grid-column-end: socialicons;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .header h1 {
+        color: var(--header-h1);
+        font-size: calc(1.2em + 3vw);
+        margin-top: 0em;
+        margin-bottom: 0.3em;
+    }
+    
+    .header h2 {
+        font-size: 0.9em;
+        margin-top: 0em;
+    }
+
     .nav {
-        margin: 0 0 10px 0;
-        padding: 0;
         grid-area: nav;
         background: none;
         border-radius: 0 0 0 0;
@@ -293,17 +319,16 @@ img {
     }
 
     .socialicons {
-        margin: 0;
-        padding: 1rem;
         width: auto;
         grid-area: socialicons;
         align-self: start;
-        justify-self: start;
+        justify-self: center;
         background: none;
         border-radius: 0;
     }
+
     .footer {
         align-self: center;
-        justify-self: end;
+        justify-self: center;
     }
 }
