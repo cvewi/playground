@@ -2,17 +2,21 @@
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
-    <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <h2><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with .GetPage "/tags/" }}
+    {{ else }}
     {{ partial "metadata.html" . }}
-        <p>{{ .Summary }}</p>
-        <p class="tags">Tags:
+        <p>{{ .Summary }}</p>        
             {{ with .Params.tags }}
+            <p class="tags">
+            Tags:
             {{ range . }}
             {{ $href := print (absURL "tags/") (urlize .) }}
             <a href="{{ $href }}">{{ . }}</a>
             {{ end }}
             {{ end }}
-        </p>  
+            </p> 
+    {{ end }} 
 </p>
 {{ end }}
 {{ end }}
