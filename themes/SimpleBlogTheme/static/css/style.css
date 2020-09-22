@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
 :root {
     /*main color scheme*/
+    --bg-color-from: #172e3a;
+    --bg-color-to: #172e3a;
+    --font-color: #ffffff;
+    --a-color: #cae8d5;
+    --a-color-hover: #cae8d5;
+    /* header specific colors */
+    --header-h1: #bdd8c7;
+    /* nav specific colors */
+    --nav-bg-color: none;
+    --nav-a-color: #cae8d5;
+    --nav-a-color-hover: #3b6978;
+    --nav-a-color-hover-bg: #cae8d5;
+    /* content specific colors */
+    --content-bg-color: none;
+    --content-font-color-date: #84a9ac;
+    --content-font-color-tags: #3b6978;
+    /* socialicons specific colors */
+    --social-a-color: #cae8d5;
+    --social-a-color-hover: #3b6978;
+}
+/*:root {
+    /*main color scheme*/
     --bg-color-from: #1d1d1d;
     --bg-color-to: #1d1d1d;
     --font-color: #e8e8e8;
@@ -20,7 +42,7 @@
     /* socialicons specific colors */
     --social-a-color: #5ac18e;
     --social-a-color-hover: #85ddb1;
-}
+}*/
 /*
 @media (prefers-color-scheme: light) {
     :root {
@@ -65,18 +87,24 @@ html {
 body {
     background-image: linear-gradient(120deg, var(--bg-color-from), var(--bg-color-to));
     color: var(--font-color);
-    font-size: 16px;
-    line-height: calc(1.0em + 0.5vw);
+    
+    line-height: calc(1.0rem + 0.5vw);
     font-family: 'Lora', serif;
 }
 
 h1 {
-    font-size: calc(1.0em + 2vw);
+    font-size: calc(1.0rem + 2vw);
     font-family: 'Amatic SC', cursive;
 }
 
+.title {
+    color: var(--font-color);
+    text-decoration: none;
+    margin-top: 0;
+}
+
 h2 {
-    font-size: calc(1em + 1vw);
+    font-size: calc(1.5rem + 1vw);
     font-family: 'Amatic SC', cursive;
 }
 
@@ -126,13 +154,13 @@ ul {
 
 .header h1 {
     color: var(--header-h1);
-    font-size: calc(1.2em + 3vw);
+    font-size: calc(1.2rem + 3vw);
     margin-top: 0em;
     margin-bottom: 0.5em;
 }
 
 .header h2 {
-    font-size: calc(0.1em + 1.2vw);
+    font-size: calc(0.1rem + 1.2vw);
     font-family: 'Lora', serif;
     margin-top: 0em;
 }
@@ -156,7 +184,7 @@ ul {
     margin: 0;
     width: 100%;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.7em;
+    font-size: 1.7rem;
 }
 
 .nav li a {
@@ -171,6 +199,7 @@ ul {
     color: var(--nav-a-color-hover);
     border-radius: 5px;
     font-style: oblique;
+    font-weight: bold;
 }
 
 .socialicons {
@@ -179,12 +208,11 @@ ul {
     grid-row-start: socialicons;
     grid-row-end: footer;
     text-align: center;
-    background-color: var(--nav-bg-color);
     border-radius: 0 0 5px 5px;
 }
 
 .socialicons a {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     margin: 0 2px 0 2px;
     color: var(--social-a-color);
 }
@@ -207,7 +235,7 @@ ul {
     line-height: 1px;
     color: var(--content-font-color-date);
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 0.8rem;
 
 }
 
@@ -216,7 +244,7 @@ ul {
     color: var(--content-font-color-tags);
     line-height: 1.5px;
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 .content .tags a {
@@ -250,7 +278,7 @@ ul {
     grid-area: footer;
     width: 100%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 /* Mobile specific viewpoints */
@@ -281,14 +309,14 @@ ul {
 
     .header h1 {
         color: var(--header-h1);
-        font-size: calc(1.2em + 3vw);
-        margin-top: 0em;
-        margin-bottom: 0.3em;
+        font-size: calc(1.2rem + 3vw);
+        margin-top: 0rem;
+        margin-bottom: 0.3rem;
     }
     
     .header h2 {
-        font-size: 0.9em;
-        margin-top: 0em;
+        font-size: 0.9rem;
+        margin-top: 0rem;
     }
 
     .nav {
