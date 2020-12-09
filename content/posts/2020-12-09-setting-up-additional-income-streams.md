@@ -13,7 +13,7 @@ tags:
 ---
 I've recently started exploring how to set up additional income streams. I have feeling that I'm too reliant on only one income stream, which can become quite vulnerable. 
 
-During this current pandemic this is really something I have started to consider. Luckily I (or my family) haven't been impacted by the pandemic - economically anyways. However living, working and being in a pandemic really makes you start wondering if you have.
+During this current pandemic this is really something I have started to consider. Luckily I (or my family) haven't been impacted by the pandemic - economically anyways. However living, working and being in a pandemic really makes you start wondering if you have protected yourself enough against any volatility.
 
 ## Passive Income Stream
 
