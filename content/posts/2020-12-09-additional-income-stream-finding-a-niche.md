@@ -29,3 +29,11 @@ Once I get more familiar with ClickUp I may decide to write a more in depth revi
 This is something I've spend quite some time on. I've had to find a niche, which I believe I will be able to provide good content to. This is of course easier if you have a natural interest in said niche. I seem to have identified a specific niche now. I will not go into a reveal of the exact niche in this blog post, but can spill the beans a bit. I've selected a niche, which is in the area of home appliances, food and technology. 
 
 It's something I myself is quite interested in, which should make it easier to create content. Before creating a website and purchasing a domain I needed to see if I could identify keywords and potential articles before committing to this.
+
+## Step 2: Identify Keywords
+
+I started out by identifying multiple keywords, which I thought would make for some great content in my selected niche. All of these keywords I've run through sevelal different tools and google to see if I believed there would be room for additional content. There is no point in going into a niche which is already over satuated by other competitors. 
+
+It's obviously difficult to identify a niche where there is absolutely no competition, however I believe I've found one, where I will be able to compete. 
+
+My keyword research has also resulted in article ideas. All of these ideas I've listed in my "Articles"-list in ClickUp. From here it will be smooth sailing, just churning out articles. My initial list is on around 100 articles. There are obviously some overlap between some of the article topics, which is fine, as this can turn in to more in-depth articles.
