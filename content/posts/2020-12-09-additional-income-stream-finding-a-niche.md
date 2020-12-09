@@ -25,3 +25,7 @@ I landed on [ClickUp](http://wittrup.link/clickup) (if you use my link to signup
 Once I get more familiar with ClickUp I may decide to write a more in depth review of the tool. But so far so good!
 
 ## Step 1: Identify Niche
+
+This is something I've spend quite some time on. I've had to find a niche, which I believe I will be able to provide good content to. This is of course easier if you have a natural interest in said niche. I seem to have identified a specific niche now. I will not go into a reveal of the exact niche in this blog post, but can spill the beans a bit. I've selected a niche, which is in the area of home appliances, food and technology. 
+
+It's something I myself is quite interested in, which should make it easier to create content. Before creating a website and purchasing a domain I needed to see if I could identify keywords and potential articles before committing to this.
