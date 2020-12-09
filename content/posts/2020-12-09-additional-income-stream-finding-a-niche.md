@@ -3,12 +3,16 @@ layout: blog
 author: Christian Wittrup
 title: "Additional Income Stream: Finding a Niche"
 date: 2020-12-09T10:31:46.631Z
-description: "How do you find the right niche? What have I looked for? "
+description: "How do you find the right niche? What have I looked for? Getting
+  my plans in order, identifying a niche and keywords. Setting up site and
+  purchasing a domain name. "
 tags:
   - passive income
   - niche
   - affiliate marketing
   - keyword
+  - hosting
+  - wordpress
 ---
 In my [previous post](https://www.wittrup.xyz/posts/2020-12-09-setting-up-additional-income-streams/), I explained how I recently started to look into establishing additional streams of income. During the pandemic I've been considering how to build on my revenue streams in order to position my self with less vulnerability to the an uncertain future. 
 
